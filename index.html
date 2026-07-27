@@ -151,7 +151,7 @@
             по исполнителям, статусы и метки, фильтры и поиск. Одна кодовая база —
             сборки под macOS и Windows.
           </p>
-          <p class="work__proof">Приложением пользуется продюсер — сортирует в нём свои биты.</p>
+          <p class="work__proof">Не демо — приложение используется для сортировки реальной библиотеки битов.</p>
           <span class="work__go">Открыть на GitHub <span class="arrow">→</span></span>
         </a>
 
@@ -231,9 +231,11 @@
       <div class="about">
 
         <aside class="about__side reveal">
-          <!-- TODO: заменить на реальное фото — assets/avatar.jpg, квадрат от 600×600 -->
-          <div class="avatar" role="img" aria-label="Фотография Василия">
+          <!-- Фото: положить в assets/avatar.jpg (квадрат, от 600×600).
+               Пока файла нет — показывается плейсхолдер. -->
+          <div class="avatar">
             <span class="avatar__ph">фото</span>
+            <img class="avatar__img" src="assets/avatar.jpg" alt="Василий" onerror="this.remove()">
           </div>
           <ul class="about__meta">
             <li><span>Имя</span><span>Василий</span></li>
@@ -289,11 +291,10 @@
             <span class="contact__value">@fewvar</span>
           </a>
 
-          <!-- TODO: подставить рабочую почту, когда будет заведена -->
-          <span class="contact__link contact__link--pending">
+          <a class="contact__link" href="mailto:vasiliydackevich2054@gmail.com">
             <span class="contact__kind">Почта</span>
-            <span class="contact__value">скоро</span>
-          </span>
+            <span class="contact__value contact__value--mail">vasiliydackevich2054@gmail.com</span>
+          </a>
         </div>
       </div>
 
