@@ -1,13 +1,9 @@
-/* fewvar — портфолио: появление секций, состояние шапки, год в подвале */
-
 (() => {
   "use strict";
 
-  /* ── Год в подвале ── */
   const year = document.getElementById("year");
   if (year) year.textContent = new Date().getFullYear();
 
-  /* ── Шапка меняет вид после первого экрана ── */
   const topbar = document.querySelector(".topbar");
   if (topbar) {
     const onScroll = () => topbar.classList.toggle("is-stuck", window.scrollY > 40);
@@ -15,7 +11,6 @@
     onScroll();
   }
 
-  /* ── Появление блоков при скролле ── */
   const items = document.querySelectorAll(".reveal");
   const motionOk = !window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
