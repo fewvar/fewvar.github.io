@@ -466,6 +466,7 @@ a { color: inherit; text-decoration: none; }
   border: 1px dashed var(--line-strong);
   border-radius: 2px;
 }
+.avatar:has(.avatar__img)::after { display: none; }
 .avatar__ph {
   font-family: var(--font-mono);
   font-size: .72rem;
@@ -481,7 +482,7 @@ a { color: inherit; text-decoration: none; }
   height: 100%;
   object-fit: cover;
   border-radius: 3px;
-  filter: grayscale(.35) contrast(1.04);
+  filter: grayscale(.4) brightness(.94) contrast(1.04);
   transition: filter .5s var(--ease);
 }
 .avatar:hover .avatar__img { filter: none; }
