@@ -1,6 +1,6 @@
 # fewvar.github.io
 
-Одностраничная витрина-портфолио. Чистый HTML, CSS и JavaScript — без фреймворков,
+Личный сайт. Чистый HTML, CSS и JavaScript — без фреймворков,
 сборщиков и зависимостей.
 
 **Живая версия:** https://fewvar.github.io
